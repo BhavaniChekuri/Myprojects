@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="card d-flex flex-column justify-content-end">
+            <div class="sub-card">
+                <h1 class="heading"> Sunrise Avenue </h1>
+                <p class="paragraph"> Move to What Moves You </p>
+                <button class="button" onclick="display('sectionFlatPage')"> Book Flat </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="sectionFlatPage">
+        <div class="card2">
+            <h1 class="heading"> Sunrise Avenue </h1>
+            <div class="flat-card d-flex flex-row" onclick="display('firstflatpage')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="image1" />
+                <div>
+                    <h1 class="flat-heading"> 3BHK Flat </h1>
+                    <p class="flat-paragraph"> This is an fully furnished house with handmade furniture including a luxury en-suite facilities pack.its built-up area is about 1600sq.ft.A spacious home for you to live it.</p>
+                </div>
+            </div>
+
+
+            <div class="flat-card d-flex flex-row" onclick="display('secondflatpage')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="image1" />
+                <div>
+                    <h1 class="flat-heading"> 2BHK Flat </h1>
+                    <p class="flat-paragraph"> A minimalist house made for modern-day families.it is fully furnished with trending furniture.its built-up area is about 1200sq.ft.</p>
+                </div>
+            </div>
+
+
+            <div class="flat-card d-flex flex-row" onclick="display('thirdflatpage')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="image1" />
+                <div>
+                    <h1 class="flat-heading"> 4BHK Flat </h1>
+                    <p class="flat-paragraph"> A contemporary home with more color and vibrancy,it is fully furnished with elegant furniture.its built-up area is about 36oosq.ft.</p>
+                </div>
+            </div>
+            <button class="button m-2" onclick="display('sectionHome')"> Back </button>
+        </div>
+    </div>
+
+
+
+    <div id="firstflatpage">
+        <div class="details-page">
+        </div>
+        <div class="details-page1">
+            <p class="heading ml-2"> Rs 3000/- </p>
+            <div class="details-page1 d-flex">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="icon ml-3" />
+                <p class="description ml-3"> D/N 5-2,Food Street,Indore </p>
+            </div>
+            <h1 class="heading"> Description </h1>
+            <p class="paragraph ml-2"> A minimalist house made for modern-day families.it is fully furnished with trending furniture.its built-up area is about 1200sq.ft.</p>
+            <div class="d-flex">
+                <button class="button m-3" onclick="display('sectionHome')"> Submit </button>
+                <button class="button m-3" onclick="display('sectionFlatPage')"> Back </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="sectionFlatPage">
+        <div class="details-pag">
+        </div>
+        <div class="details-page1">
+            <p class="heading ml-2"> Rs 2000/- </p>
+            <div class="details-page1 d-flex">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="icon ml-3" />
+                <p class="description ml-3"> D/N 5-2,Food Street,Indore </p>
+            </div>
+            <h1 class="heading"> Description </h1>
+            <p class="paragraph ml-2"> This is an fully furnished house with handmade furniture including a luxury en-suite facilities pack.its built-up area is about 1600sq.ft.A spacious home for you to live it.</p>
+            <div class="d-flex">
+                <button class="button m-3" onclick="display('sectionHome')"> Submit </button>
+                <button class="button m-3" onclick="display('sectionFlatPage')"> Back </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="thirdflatpage">
+        <div class="details-pa">
+        </div>
+        <div class="details-page1">
+            <p class="heading ml-2"> Rs 4000/- </p>
+            <div class="details-page1 d-flex">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="icon ml-3" />
+                <p class="description ml-3"> D/N 5-2,Food Street,Indore </p>
+            </div>
+            <h1 class="heading"> Description </h1>
+            <p class="paragraph ml-2"> This is an fully furnished house with handmade furniture including a luxury en-suite facilities pack.its built-up area is about 1600sq.ft.A spacious home for you to live it.</p>
+            <div class="d-flex">
+                <button class="button m-3" onclick="display('sectionHome')"> Submit </button>
+                <button class="button m-3" onclick="display('sectionFlatPage')"> Back </button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
